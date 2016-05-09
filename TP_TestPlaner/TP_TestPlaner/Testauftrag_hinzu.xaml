@@ -1,0 +1,54 @@
+﻿<Window x:Class="TP_TestPlaner.Testauftrag_hinzu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TP_TestPlaner"
+        mc:Ignorable="d"
+        Title="Testauftrag hinzufügen" Height="507" Width="639">
+    <Grid>
+        <Label x:Name="label" Content="Titel: " HorizontalAlignment="Left" Margin="10,14,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Projekt: " HorizontalAlignment="Left" Margin="10,79,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Version des Projektes: " HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Priorität: " HorizontalAlignment="Left" Margin="10,141,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="Art des Tests: " HorizontalAlignment="Left" Margin="10,172,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label5" Content="Start: " HorizontalAlignment="Left" Margin="10,203,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label6" Content="Ende: " HorizontalAlignment="Left" Margin="10,234,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label7" Content="Termin/ Deadline: " HorizontalAlignment="Left" Margin="10,265,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label8" Content="Status: " HorizontalAlignment="Left" Margin="10,296,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label9" Content="Risiko-Level: " HorizontalAlignment="Left" Margin="10,327,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label10" Content="Testauftrag-Ersteller:" HorizontalAlignment="Left" Margin="10,358,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Abbrechen" HorizontalAlignment="Left" Margin="10,435,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Button x:Name="button1" Content="Speichern" HorizontalAlignment="Left" Margin="530,435,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="250,17,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="355"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="250,79,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="355"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="250,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="355"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="250,141,0,0" VerticalAlignment="Top" Width="355">
+            <ComboBoxItem Content="Low"/>
+            <ComboBoxItem Content="Medium"/>
+            <ComboBoxItem Content="High"/>
+        </ComboBox>
+        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="250,172,0,0" VerticalAlignment="Top" Width="355">
+            <ComboBoxItem Content="Smoke-Test"/>
+            <ComboBoxItem Content="System-Test"/>
+            <ComboBoxItem Content="Last-Test"/>
+        </ComboBox>
+        <DatePicker HorizontalAlignment="Left" Margin="250,203,0,0" VerticalAlignment="Top" Width="355"/>
+        <DatePicker HorizontalAlignment="Left" Margin="250,234,0,0" VerticalAlignment="Top" Width="355"/>
+        <DatePicker HorizontalAlignment="Left" Margin="250,265,0,0" VerticalAlignment="Top" Width="355"/>
+        <ComboBox x:Name="comboBox2" HorizontalAlignment="Left" Margin="250,296,0,0" VerticalAlignment="Top" Width="355">
+            <ComboBoxItem Content="Erstellt"/>
+            <ComboBoxItem Content="Zugewiesen"/>
+            <ComboBoxItem Content="In Durchführung"/>
+            <ComboBoxItem Content="Blockiert"/>
+            <ComboBoxItem Content="Getestet"/>
+        </ComboBox>
+        <ComboBox x:Name="comboBox3" HorizontalAlignment="Left" Margin="250,327,0,0" VerticalAlignment="Top" Width="355"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="250,360,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="355"/>
+        <Label x:Name="label11" Content="Tester: " HorizontalAlignment="Left" Margin="10,389,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboBox4" HorizontalAlignment="Left" Margin="250,393,0,0" VerticalAlignment="Top" Width="355"/>
+        <Label x:Name="label12" Content="Gemini-ID: " HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="23" Margin="250,48,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="355"/>
+
+    </Grid>
+</Window>

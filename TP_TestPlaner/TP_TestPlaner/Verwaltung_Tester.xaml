@@ -1,0 +1,16 @@
+﻿<Window x:Class="TP_TestPlaner.Verwaltung_Tester"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TP_TestPlaner"
+        mc:Ignorable="d"
+        Title="Verwaltung Tester" Height="587" Width="800">
+    <Grid>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top" Height="475" Width="765"/>
+        <Button x:Name="button1" Content="Tester hinzufügen" HorizontalAlignment="Left" Margin="25,505,0,0" VerticalAlignment="Top" Width="115" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Tester bearbeiten" HorizontalAlignment="Left" Margin="165,505,0,0" VerticalAlignment="Top" Width="105"/>
+        <Button x:Name="button3" Content="Tester deaktivieren" HorizontalAlignment="Left" Margin="290,505,0,0" VerticalAlignment="Top" Width="110"/>
+        <Button x:Name="button" Content="Verwaltung schließen" HorizontalAlignment="Left" Margin="650,505,0,0" VerticalAlignment="Top" Width="125" Click="button_Click"/>
+    </Grid>
+</Window>
