@@ -48,3 +48,6 @@ C:\Users\neuge\Source\Workspaces\TP - Testplaner\TP_TestPlaner\TP_TestPlaner\obj
 E:\Abschlussprojekt\Projekt\TP_TestPlaner\TP_TestPlaner\bin\Debug\TP_TestPlaner.exe.config
 E:\Abschlussprojekt\Projekt\TP_TestPlaner\TP_TestPlaner\obj\Debug\TP_TestPlaner.exe
 E:\Abschlussprojekt\Projekt\TP_TestPlaner\TP_TestPlaner\obj\Debug\TP_TestPlaner.pdb
+C:\Users\neuge\Documents\GitHub\TP_TestPlaner\TP_TestPlaner\TP_TestPlaner\bin\Debug\TP_TestPlaner.exe.config
+C:\Users\neuge\Documents\GitHub\TP_TestPlaner\TP_TestPlaner\TP_TestPlaner\obj\Debug\TP_TestPlaner.exe
+C:\Users\neuge\Documents\GitHub\TP_TestPlaner\TP_TestPlaner\TP_TestPlaner\obj\Debug\TP_TestPlaner.pdb

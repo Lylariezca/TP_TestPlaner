@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-E:\Abschlussprojekt\Projekt\TP_TestPlaner\TP_TestPlaner\obj\Debug\
+C:\Users\neuge\Documents\GitHub\TP_TestPlaner\TP_TestPlaner\TP_TestPlaner\obj\Debug\
 TP_TestPlaner
 none
 false
 DEBUG;TRACE
-E:\Abschlussprojekt\Projekt\TP_TestPlaner\TP_TestPlaner\App.xaml
+C:\Users\neuge\Documents\GitHub\TP_TestPlaner\TP_TestPlaner\TP_TestPlaner\App.xaml
 51741158314
-21410232424
-13-1793845884
-13738642453
+
+131178988082
+14314713439
 MainWindow.xaml;Testauftrag_bearbeiten.xaml;Testauftrag_hinzu.xaml;Tester_hinzu.xaml;Verwaltung_Tester.xaml;
 
 False
