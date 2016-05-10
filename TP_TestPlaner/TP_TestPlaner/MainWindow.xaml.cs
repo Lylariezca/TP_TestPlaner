@@ -23,12 +23,7 @@ namespace TP_TestPlaner
     {
         public MainWindow()
         {
-            //InitializeComponent();
-            //SqlConnection myConnection = new SqlConnection("server=localhost;" +
-            //                           "Trusted_Connection=yes;" +
-            //                           "database=testDB; " +
-            //                           "connection timeout=30");
-            
+            InitializeComponent();
         }
 
         private void button_Click(object sender, RoutedEventArgs e)

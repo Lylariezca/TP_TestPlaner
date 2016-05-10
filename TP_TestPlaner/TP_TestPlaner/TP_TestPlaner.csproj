@@ -74,6 +74,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Storage\Class1.cs" />
+    <Compile Include="Storage\Class2.cs" />
     <Compile Include="Testauftrag_bearbeiten.xaml.cs">
       <DependentUpon>Testauftrag_bearbeiten.xaml</DependentUpon>
     </Compile>
