@@ -11,7 +11,7 @@ namespace TP_TestPlaner.Storage
     {
         private string connString = "User=SYSDBA;" +
                                     "Password=masterkey;" +
-                                    "Database=;" + //Datenbankpfad angeben
+                                    "Database=C:\\Users\\neuge\\Documents\\GitHub\\DB_TestPlaner.FDB;" + //Datenbankpfad muss angepasst werden
                                     "DataSource=localhost;" +
                                     "Port=3050;";
         private FbConnection conn;
@@ -338,7 +338,8 @@ namespace TP_TestPlaner.Storage
             }
             dr.Close();
             return exists;
-        }
+        }  
 
     }
+
 }
