@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using FirebirdSql.Data.FirebirdClient;
+using TP_TestPlaner.Storage;
 
 namespace TP_TestPlaner
 {
@@ -24,6 +25,13 @@ namespace TP_TestPlaner
         public MainWindow()
         {
             InitializeComponent();
+            builder b = new builder();
+            b.connect();
+            b.Lade_Prio();
+            MessageBox.Show(b.reader.FieldCount.ToString());
+            b.Lade_Status();
+            MessageBox.Show(b.reader.FieldCount.ToString());
+            b.diconnect();
         }
 
         private void button_Click(object sender, RoutedEventArgs e)

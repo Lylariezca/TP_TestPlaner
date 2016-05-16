@@ -6,17 +6,18 @@ using System.Threading.Tasks;
 
 namespace TP_TestPlaner.Storage
 {
-    public interface IStorage
-    {
+    //public interface IStorage
+    //{
 
-        List<Tester> GetTester();
-        List<Testauftraege> GetTestauftraege();
+    //    List<Tester> LadeTester();
+    //    List<Testauftraege> LadeTestauftraege();
+    //    List<Personen> Lade_Personen();
 
-        void AddTester(Tester tester);
-        void AddTestauftrag(Testauftrag testauftrag);
+    //    void AddPersonen(Person person);
+    //    void AddTestauftrag(Testauftrag testauftrag);
 
-        void UpdateTester(Tester tester);
-        void UpdateTestauftrag(Testauftrag testauftrag);
+    //    void UpdatePersonen(erson person);
+    //    void UpdateTestauftrag(Testauftrag testauftrag);
 
-    }
+    //}
 }
